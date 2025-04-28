@@ -1,0 +1,110 @@
+/*Celin Ben-Shushan --> 2125573838
+Maya Sofer --> 315058644*/
+
+body {
+  background-color: beige;
+  font-family: sans-serif;
+  align-items: center;
+  color: sienna;
+  text-align: center;
+}
+
+#fromBinary {
+  background-color: rgb(239, 105, 172);
+}
+#fromOctal {
+  background-color: rgb(218, 99, 139);
+}
+#fromDecimal {
+  background-color: rgb(187, 68, 143);
+}
+#fromHex {
+  background-color: rgb(212, 68, 190);
+}
+
+#toBinary {
+  background-color: rgb(239, 105, 172);
+}
+#toOctal {
+  background-color: rgb(218, 99, 139);
+}
+#toDecimal {
+  background-color: rgb(187, 68, 143);
+}
+#toHex {
+  background-color: rgb(212, 68, 190);
+}
+
+.selected {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.to,
+.from {
+  color: sienna;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.convertContainer {
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 20px;
+}
+
+#convertButton {
+  cursor: pointer;
+  font-family: sans-serif;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  color: rgb(252, 252, 252);
+  background-color: rgb(25, 25, 101);
+  font-weight: bold;
+}
+
+.row {
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+}
+
+.box {
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.box:hover {
+  opacity: 0.7;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#userInput {
+  width: 150px;
+  height: 10px;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px solid #403c2e;
+  text-align: center;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: sienna;
+  font-weight: bold;
+}
