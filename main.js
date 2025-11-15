@@ -1,6 +1,3 @@
-//Celin Ben-Shushan --> 2125573838
-//Maya Sofer --> 315058644
-
 let fromBase = null;
 let toBase = null;
 
@@ -77,3 +74,4 @@ function convert() {
 function displayResult(result) {
   document.getElementById("result").innerHTML = `The result is: ${result}`;
 }
+
